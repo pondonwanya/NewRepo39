@@ -14,12 +14,13 @@ int main()
 			j = 0;				
 			while (isalpha(Text[i]))        
 				word[j++] = Text[i++];
-			word[j] = '\0'; n++;             
+			word[j] = '\0'; 
+			n++;             
 			printf("%s\n", word);
 		}
 		while (!isalpha(Text[i]) && (Text[i] != '\0')) i++;  
 	}
-	printf("\n#Words = %d\n", n);
+	printf("\n# Words = %d #\n", n);
 
 	return 0;
 }
